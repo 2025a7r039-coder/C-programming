@@ -1,0 +1,43 @@
+// find the area and perimeter of circle , rectangle ,square
+#include<stdio.h>
+int main(){
+    while (1==1)
+    {
+    
+    
+    float a,b,sq,sq2,radi,side;
+    float square,square2 ,cir,cir2;
+    
+    printf("\nenter length-> ");
+    scanf("%f",&a);
+    printf("enter breadth -> ");
+    scanf("%f",&b);
+    sq=a*b;
+    sq2=2*(a+b);
+    printf("Area of rectangle -> %f \n" ,sq);
+    printf("perimieter of rectangle -> %f \n" ,sq2);
+
+
+    printf("enter side-> ");
+    scanf("%f",&side);
+    square=side*side;
+    square2=4*side;
+
+    printf("Area of square-> %f \n" ,square);
+    printf("Area of square -> %f \n" ,square2);
+
+    square=side*side;
+    square2=side+side;
+
+    printf("enter radi ->");
+    scanf("%f" , &radi);
+    cir=3.14*radi*radi;
+    cir2=2*3.14*radi;
+    printf("area of circle -> %f \n",cir);
+    printf("perimieter of circle -> %f \n",cir2);
+    }
+
+  
+    return 0;
+
+} 
