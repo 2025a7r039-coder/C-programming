@@ -9,6 +9,6 @@ int main() {
     printf("%c %d %.2f %.6lf",x,a,b,ch);
     
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    
     return 0;
 }
