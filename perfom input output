@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    char x;
+    int a;
+    float b;
+    double ch;
+    scanf("%c %d %f %lf",&x,&a,&b,&ch);
+    printf("%c %d %.2f %.6lf",x,a,b,ch);
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
