@@ -25,19 +25,13 @@ int main(){
 
     printf("Area of square-> %f \n" ,square);
     printf("Area of square -> %f \n" ,square2);
-
-    square=side*side;
-    square2=side+side;
-
     printf("enter radi ->");
     scanf("%f" , &radi);
     cir=3.14*radi*radi;
     cir2=2*3.14*radi;
     printf("area of circle -> %f \n",cir);
     printf("perimieter of circle -> %f \n",cir2);
-    }
-
-  
     return 0;
 
+    }
 } 
