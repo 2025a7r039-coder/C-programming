@@ -1,0 +1,9 @@
+//ternary operator
+#include<stdio.h>
+int main(){
+    int a , b;
+    printf("Entefr value of a and b ->\n");
+    scanf("%d  %d",&a,&b);
+    (a>b)?printf("a is large"):printf("b is larger");
+    return 0;
+}
